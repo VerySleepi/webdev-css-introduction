@@ -27,6 +27,6 @@ p.firstPara {
   font-size: 10px;
   text-align: center;
 }
-p strong {
+p > strong {
   color: #ff0000;
 }
