@@ -1,0 +1,32 @@
+span {
+  color: #ff0000;
+  background-color: #000;
+}
+.container {
+  width: 800px;
+  height: fit-content;
+  margin: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000099;
+  background-color: #ffffcc;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+  background-color: #cccccc;
+  text-align: center;
+}
+p.firstPara {
+  text-indent: 100px;
+}
+#footer {
+  color: #0066cc;
+  background-color: #cccccc;
+  font-size: 10px;
+  text-align: center;
+}
+p strong {
+  color: #ff0000;
+}
