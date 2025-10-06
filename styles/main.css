@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 span {
   color: #ff0000;
   background-color: #000;
@@ -17,6 +19,7 @@ h1 {
   font-weight: 100;
   background-color: #cccccc;
   text-align: center;
+  font-family: 'Railway', Arial, sans-serif;
 }
 p.firstPara {
   text-indent: 100px;
@@ -29,4 +32,26 @@ p.firstPara {
 }
 p > strong {
   color: #ff0000;
+}
+
+nav li a {
+  &:link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  &:visited {
+    text-decoration: none;
+    color: #CCCCCC;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: #66CC00;
+  }
+
+  &:active {
+    text-decoration: underline;
+    color: #CC6600;
+  }
 }
