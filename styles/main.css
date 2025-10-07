@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+span {
+  color: #ff0000;
+  background-color: #000;
+}
+.container {
+  width: 800px;
+  height: fit-content;
+  margin: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000099;
+  background-color: #ffffcc;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+  background-color: #cccccc;
+  text-align: center;
+  font-family: 'Railway', Arial, sans-serif;
+}
+p.firstPara {
+  text-indent: 100px;
+}
+#footer {
+  color: #0066cc;
+  background-color: #cccccc;
+  font-size: 10px;
+  text-align: center;
+}
+p > strong {
+  color: #ff0000;
+}
+
+nav li a {
+  &:link {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  &:visited {
+    text-decoration: none;
+    color: #CCCCCC;
+  }
+
+  &:hover {
+    text-decoration: underline;
+    color: #66CC00;
+  }
+
+  &:active {
+    text-decoration: underline;
+    color: #CC6600;
+  }
+}
