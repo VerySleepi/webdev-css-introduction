@@ -19,7 +19,7 @@ h1 {
   font-weight: 100;
   background-color: #cccccc;
   text-align: center;
-  font-family: 'Railway', Arial, sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
 }
 p.firstPara {
   text-indent: 100px;
@@ -42,7 +42,7 @@ nav li a {
 
   &:visited {
     text-decoration: none;
-    color: #CCCCCC;
+    color: #bef3fb;
   }
 
   &:hover {
